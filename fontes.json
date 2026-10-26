@@ -1,0 +1,67 @@
+{
+  "_ajuda": "Cada fonte tem: id (sem espaços), nome, ativa (true/false), tipo ('feed' coleta; 'so_link' só mostra o link), cidade (id da cidade, ou 'detectar' para descobrir pelo texto), cidades_filtro (opcional: só aceita estas cidades), site (página inicial da fonte) e feeds (endereços de feed RSS/Atom, se você souber). Se 'feeds' estiver vazio, o coletor procura o feed sozinho a partir de 'site'.",
+  "fontes": [
+    {
+      "id": "g1-mococa",
+      "nome": "g1 Mococa",
+      "ativa": true,
+      "tipo": "feed",
+      "cidade": "detectar",
+      "cidades_filtro": ["mococa"],
+      "site": "https://g1.globo.com/sp/sao-carlos-regiao/",
+      "feeds": ["https://g1.globo.com/rss/g1/sp/sao-carlos-regiao/"],
+      "observacao": "NÃO VERIFICADO: o endereço do feed é um palpite. Aproveita só o que citar Mococa. Veja o resultado em dados/status.json depois da primeira atualização."
+    },
+    {
+      "id": "g1-sjrp",
+      "nome": "g1 São José do Rio Pardo",
+      "ativa": true,
+      "tipo": "feed",
+      "cidade": "detectar",
+      "cidades_filtro": ["sao-jose-do-rio-pardo"],
+      "site": "https://g1.globo.com/sp/sao-carlos-regiao/",
+      "feeds": ["https://g1.globo.com/rss/g1/sp/sao-carlos-regiao/"],
+      "observacao": "NÃO VERIFICADO: mesmo feed regional do g1 acima; aproveita só o que citar São José do Rio Pardo. Se a cidade pertencer a outra região do g1, troque o endereço."
+    },
+    {
+      "id": "r7-interior",
+      "nome": "R7",
+      "ativa": true,
+      "tipo": "feed",
+      "cidade": "detectar",
+      "site": "https://www.r7.com/",
+      "feeds": [],
+      "observacao": "NÃO VERIFICADO: sem endereço de feed conhecido; o coletor tenta descobrir pelo site. Aproveita só o que citar as três cidades. Se aparecer 'sem_feed' no status, a fonte fica só como link."
+    },
+    {
+      "id": "prefeitura-mococa",
+      "nome": "Prefeitura de Mococa",
+      "ativa": true,
+      "tipo": "feed",
+      "cidade": "mococa",
+      "site": "",
+      "feeds": [],
+      "observacao": "PREENCHER: cole em 'site' o endereço oficial da Prefeitura (ex.: https://...). Não consegui confirmar o endereço."
+    },
+    {
+      "id": "portal-rio-pardo",
+      "nome": "Portal Rio Pardo",
+      "ativa": true,
+      "tipo": "feed",
+      "cidade": "sao-jose-do-rio-pardo",
+      "site": "",
+      "feeds": [],
+      "observacao": "PREENCHER: cole em 'site' o endereço do Portal Rio Pardo. Não consegui confirmar o endereço."
+    },
+    {
+      "id": "casa-branca-portal-da-cidade",
+      "nome": "Casa Branca Portal da Cidade",
+      "ativa": true,
+      "tipo": "feed",
+      "cidade": "casa-branca",
+      "site": "",
+      "feeds": [],
+      "observacao": "PREENCHER: cole em 'site' o endereço do Casa Branca Portal da Cidade. Não consegui confirmar o endereço."
+    }
+  ]
+}

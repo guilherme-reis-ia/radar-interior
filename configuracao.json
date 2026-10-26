@@ -1,0 +1,51 @@
+{
+  "_aviso": "PREENCHA o número de WhatsApp em 'whatsapp' (só números, com 55 + DDD + número; exemplo: 5519999999999). Enquanto estiver vazio, os botões de anúncio mostram 'Contato comercial em breve'. Preencha também 'instagram_meio_dia' com o endereço do perfil.",
+  "nome_site": "RADAR DO INTERIOR",
+  "url_site": "",
+  "whatsapp": "",
+  "mensagem_whatsapp": "Olá! Quero anunciar no Radar do Interior.",
+  "instagram_meio_dia": "",
+  "max_noticias": 80,
+  "resumo_max": 200,
+  "mostrar_precos_no_convite": true,
+  "cidades": [
+    {
+      "id": "mococa",
+      "nome": "Mococa",
+      "sigla": "MOC",
+      "cor": "#B4233C",
+      "termos": ["Mococa"]
+    },
+    {
+      "id": "sao-jose-do-rio-pardo",
+      "nome": "São José do Rio Pardo",
+      "sigla": "SJRP",
+      "cor": "#1F6F5C",
+      "termos": ["São José do Rio Pardo"]
+    },
+    {
+      "id": "casa-branca",
+      "nome": "Casa Branca",
+      "sigla": "CB",
+      "cor": "#2F55A4",
+      "termos": ["Casa Branca", "casa-branquense"],
+      "excluir_se_citar": ["Washington", "Trump", "Estados Unidos", "EUA", "Sala Oval", "Biden", "Obama", "Kamala"]
+    }
+  ],
+  "nomes_espacos": {
+    "destaque": "Destaque",
+    "medio": "Médio",
+    "basico": "Básico",
+    "lateral": "Lateral",
+    "patrocinador_cidade": "Patrocinador da cidade",
+    "noticia_patrocinada": "Notícia patrocinada"
+  },
+  "precos": {
+    "destaque": 200,
+    "medio": 100,
+    "basico": 50,
+    "lateral": null,
+    "patrocinador_cidade": null,
+    "noticia_patrocinada": null
+  }
+}

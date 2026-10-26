@@ -1,0 +1,23 @@
+{
+  "_ajuda": "Para ligar um anúncio: troque 'ativo' para true e preencha anunciante, imagem (caminho da imagem na pasta anuncios/, ex.: anuncios/padaria.jpg, ou endereço https://...), link (site ou WhatsApp do anunciante), texto e as datas inicio/fim no formato AAAA-MM-DD (deixe vazio para não limitar). Sem imagem, o anúncio aparece como cartão de texto. Espaço sem anúncio ativo mostra o convite 'Anuncie aqui'. Todo anúncio recebe a etiqueta 'Publicidade' automaticamente.",
+  "destaque": [
+    { "ativo": false, "anunciante": "", "titulo": "", "texto": "", "imagem": "", "link": "", "inicio": "", "fim": "" }
+  ],
+  "medio": [
+    { "ativo": false, "anunciante": "", "titulo": "", "texto": "", "imagem": "", "link": "", "inicio": "", "fim": "" }
+  ],
+  "basico": [
+    { "ativo": false, "anunciante": "", "titulo": "", "texto": "", "imagem": "", "link": "", "inicio": "", "fim": "" }
+  ],
+  "lateral": [
+    { "ativo": false, "anunciante": "", "titulo": "", "texto": "", "imagem": "", "link": "", "inicio": "", "fim": "" }
+  ],
+  "patrocinador_cidade": {
+    "mococa": { "ativo": false, "anunciante": "", "link": "", "inicio": "", "fim": "" },
+    "sao-jose-do-rio-pardo": { "ativo": false, "anunciante": "", "link": "", "inicio": "", "fim": "" },
+    "casa-branca": { "ativo": false, "anunciante": "", "link": "", "inicio": "", "fim": "" }
+  },
+  "noticia_patrocinada": [
+    { "ativo": false, "anunciante": "", "cidade": "", "titulo": "", "texto": "", "imagem": "", "link": "", "inicio": "", "fim": "" }
+  ]
+}

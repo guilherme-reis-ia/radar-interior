@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#10222E">
+<!--SEO-->
+<title>RADAR DO INTERIOR – Notícias de Mococa, São José do Rio Pardo e Casa Branca</title>
+<meta name="description" content="As últimas notícias de Mococa, São José do Rio Pardo e Casa Branca reunidas em um só lugar, atualizadas a cada hora. Cada notícia leva à matéria original.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="RADAR DO INTERIOR">
+<meta property="og:title" content="RADAR DO INTERIOR – Notícias de Mococa, São José do Rio Pardo e Casa Branca">
+<meta property="og:description" content="As últimas notícias das três cidades em um só lugar, atualizadas a cada hora.">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"RADAR DO INTERIOR","inLanguage":"pt-BR"}</script>
+<!--/SEO-->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='22' fill='%2310222E'/%3E%3Ccircle cx='24' cy='24' r='13' fill='none' stroke='%2339D98A' stroke-width='3'/%3E%3Ccircle cx='33' cy='15' r='4' fill='%23F2A900'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+<a class="pular" href="#conteudo">Pular para as notícias</a>
+
+<header class="topo">
+  <a class="marca" href="./" aria-label="RADAR DO INTERIOR – página inicial">
+    <svg class="logo" viewBox="0 0 48 48" width="44" height="44" aria-hidden="true" focusable="false">
+      <circle cx="24" cy="24" r="22" fill="#0A1820" stroke="#39D98A" stroke-opacity=".5" stroke-width="2"/>
+      <circle cx="24" cy="24" r="14" fill="none" stroke="#39D98A" stroke-opacity=".35" stroke-width="1.5"/>
+      <circle cx="24" cy="24" r="6" fill="none" stroke="#39D98A" stroke-opacity=".35" stroke-width="1.5"/>
+      <g class="varredura">
+        <path d="M24 24 L24 2 A22 22 0 0 1 43.05 13 Z" fill="#39D98A" fill-opacity=".35"/>
+        <line x1="24" y1="24" x2="24" y2="2" stroke="#39D98A" stroke-width="2"/>
+      </g>
+      <circle cx="33" cy="15" r="2.6" fill="#F2A900"/>
+    </svg>
+    <span class="nome"><b>RADAR</b><small>DO INTERIOR</small></span>
+  </a>
+  <div class="topo-acoes">
+    <a id="btn-anuncie" class="botao sinal" href="#anuncie">Anuncie aqui</a>
+    <a id="btn-instagram" class="botao claro" href="#" target="_blank" rel="noopener noreferrer" hidden>Instagram do Jornal Meio Dia</a>
+  </div>
+</header>
+
+<nav class="filtro" aria-label="Filtrar por cidade">
+  <div id="filtro" class="filtro-botoes"></div>
+  <div id="patrocinador-cidade" class="patrocinador-cidade"></div>
+</nav>
+
+<div class="pagina">
+  <main id="conteudo" tabindex="-1">
+    <p id="selo" class="selo" role="status">Carregando notícias…</p>
+    <div id="anuncio-destaque"></div>
+    <div id="destaque"></div>
+    <div id="lista"></div>
+    <noscript><p class="caixa">Este site precisa de JavaScript para mostrar as notícias. Ative o JavaScript no navegador e recarregue a página.</p></noscript>
+  </main>
+  <aside id="lateral" class="lateral" aria-label="Espaço publicitário"></aside>
+</div>
+
+<div id="anuncio-basico" class="rodape-anuncio"></div>
+
+<footer class="rodape">
+  <section id="anuncie" class="anuncie" aria-labelledby="t-anuncie"></section>
+  <section id="fontes" class="fontes" aria-labelledby="t-fontes"></section>
+  <section id="cidades-links" class="fontes" aria-label="Páginas por cidade"></section>
+  <p class="nota">O RADAR DO INTERIOR mostra apenas título, resumo curto e link das notícias. A matéria completa pertence ao veículo de origem e abre em uma nova aba. Conteúdo pago traz sempre a etiqueta “Publicidade”.</p>
+</footer>
+
+<script>window.RADAR={raiz:"",cidade:""};</script>
+<script src="js/app.js" defer></script>
+</body>
+</html>
